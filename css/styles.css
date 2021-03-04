@@ -1,0 +1,264 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --color-pointed-btn: #188CE8;
+    --color-btn-text-pointed: #2196F3;
+    --color-aссent: #757575;
+    --color-text: #212121;
+    --color-text-light-fon: #FFFFFF;
+    --color-text-dark-fon: #000000;
+    --color-footer-contakts:#ffffff99;
+    
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--color-btn-text-pointed);
+}
+
+.logo-light-theme {
+    color: var(--color-text-dark-fon);
+}
+
+.logo-dark-theme {
+    color: var(--color-text-light-fon);
+}
+
+/* =============== HEADER PARTFOLIO =============== */
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+
+    color: var(--color-text);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--color-text-light-fon);
+    background-color:var(--color-btn-text-pointed);
+}
+/* =============== END HEADER PARTFOLIO =============== */
+/* =============== HEADER =============== */
+
+.navigation-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--color-text);
+
+}
+
+.navigation-link:hover,
+.navigation-link:focus{
+    color: var(--color-btn-text-pointed);
+}
+
+.tel-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--color-aссent);
+
+}
+
+.tel-link:hover,
+.tel-link:focus {
+    color: var(--color-btn-text-pointed);
+}
+
+.post-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--color-aссent);
+}
+
+.post-link:hover,
+.post-link:focus {
+    color: var(--color-btn-text-pointed);
+}
+/* =============== END HEADER =============== */
+
+/* =============== HERO =============== */
+
+.hero-titel {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    /* color: var(--color-text-light-fon); */
+}
+
+.modal-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    background-color: var(--color-btn-text-pointed);
+    cursor: pointer;
+    
+    color: var(--color-text-light-fon);
+    
+
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    background-color:var(--color-pointed-btn);
+}
+/* =============== END HERO =============== */
+
+
+/* =============== FEATURES =============== */
+.features-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--color-text);
+}
+
+.features-description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--color-aссent);
+}
+/* =============== END FEATURES =============== */
+
+.section-subtitel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--color-text);
+}
+
+/* =============== TEAM =============== */
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--color-text);
+
+}
+
+.team-des {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--color-aссent);
+}
+/* =============== END TEAM =============== */
+
+/* =============== FOOTER =============== */
+.footer-map-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--color-text-light-fon);
+}
+
+.footer-contacts-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--color-footer-contakts);
+}
+
+/* =============== END FOOTER =============== */
+
+/* ============= PROGECT =============  */
+.project-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--color-text);
+}
+
+.project-description {
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+
+color: var(--color-aссent);
+}
+/* ============= END PROGECT =============  */
