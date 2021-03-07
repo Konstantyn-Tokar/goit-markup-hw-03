@@ -124,8 +124,6 @@ img{
 .navigation-list {
     display: flex;
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .navigation-item:not(:last-child) {
@@ -135,8 +133,6 @@ img{
 .navigation-contacts-list {
     margin-left: auto;
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .navigation-contacts-item {
@@ -147,6 +143,8 @@ img{
 }
 
 .navigation-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -162,6 +160,8 @@ img{
 }
 
 .tel-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -177,6 +177,8 @@ img{
 }
 
 .post-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
